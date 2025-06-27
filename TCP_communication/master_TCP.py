@@ -1,5 +1,5 @@
 #==========================================
-#  Master Raspberry Pi controll over TCP
+#  Master Raspberry Pi control over TCP
 #==========================================
 
 import socket
@@ -33,7 +33,7 @@ def receive_image_from_slave(sock, slave_id, response_data):
         file_size = int(size_data)
         print(f"[MASTER] Expecting image of {file_size} bytes from Slave {slave_id}")
         
-        # Send acknowledgment
+        # Send acknowledgement
         sock.send("READY".encode())
         
         # Receive file data
