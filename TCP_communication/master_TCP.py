@@ -107,7 +107,7 @@ def send_capture_command(slave_host, slave_id, receive_image=True):
         if response_data['status'] == 'success':
             print(f"[MASTER] Slave {slave_id} successfully captured image")
             
-            # Receive image if requested and capture was successful
+            # Receive image if requested, and capture was successful
             if receive_image:
                 image_result = receive_image_from_slave(sock, slave_id, response_data)
                 if image_result['success']:
