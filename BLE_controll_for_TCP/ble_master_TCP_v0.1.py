@@ -1,4 +1,6 @@
-# master_wifi_controller.py
+#====================================
+# Master + BLE + TCP communication
+#====================================
 import socket
 import time
 import threading
