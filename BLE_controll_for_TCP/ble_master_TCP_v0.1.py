@@ -12,7 +12,7 @@ import numpy as np
 from motor_module import MotorModule
 from collections import namedtuple
 
-# === Brightness Level Detection Setup ===
+# Brightness Level Detection Setup 
 BLevel = namedtuple("BLevel", ['brange', 'bval'])
 _blevels = [
     BLevel(brange=range(0, 24), bval=0),
