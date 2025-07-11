@@ -1,4 +1,4 @@
-Physical connections (wiring)
+# Physical connections (wiring)
 Signal	Master Pi (GPIO#)	Pin (header)	Slaves share — connect to each Pi’s corresponding pin
 MOSI	GPIO 10	Pin 19	All slaves: MOSI ←→ GPIO 10 (pin 19)
 MISO	GPIO 9	Pin 21	All slaves: MISO ←→ GPIO 9 (pin 21)
